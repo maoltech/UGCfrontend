@@ -2,7 +2,7 @@ import HeroBg from "../../../assets/herobg.svg";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div className="max-w-[1200px] mx-auto">
       <div className="w-[80%] mx-auto">
         <div
           style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "cover" }}

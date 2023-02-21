@@ -12,7 +12,7 @@ const Section2 = () => {
       }}
       className="pt-[4rem] wfull grd gridcols-[20%_80%] bg[#0030AB] textcenter p4 mxauto w-screen"
     >
-      <div className="py-[2rem] w-full grid grid-cols-[25%_75%] text-center p4 mx-auto justify-items-stretch">
+      <div className="py-[2rem] w-full max-w-[1200px] grid grid-cols-[25%_75%] text-center p4 mx-auto justify-items-stretch">
         <div className="h-full w-full">
           <img
             src={serviceskew}
